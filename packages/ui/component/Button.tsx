@@ -5,5 +5,7 @@ type Props = {
 }
 
 export const Button: React.FC<Props> = ({children}) => {
-  return <button>{children}</button>;
+  return <button style={{
+    color: 'red'
+  }}>{children}</button>;
 };
