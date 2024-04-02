@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@monorepo-sample/ui" 
+import { Button } from "@monorepo-sample/ui";
 
 export default function Home() {
   return (
